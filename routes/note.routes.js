@@ -1,5 +1,5 @@
 import { Router } from "express";
-import isLoggedIn from "../middlewares/auth .middleware.js";
+import isLoggedIn from "../middlewares/auth.middleware.js";
 import { allNotes, createNote, deleteNote, updateNote } from "../controllers/note.controllers.js";
 
 const router = Router();
